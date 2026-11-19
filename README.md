@@ -2,15 +2,11 @@
 
 [![build](https://github.com/ephread/inkgd/workflows/build/badge.svg)](https://github.com/ephread/inkgd/actions)
 [![Documentation Status](https://readthedocs.org/projects/inkgd/badge/?version=latest)](https://inkgd.readthedocs.io/en/latest/?badge=latest)
-![Version](https://img.shields.io/badge/version-0.5.0-orange.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)
 ![Godot Version](https://img.shields.io/badge/godot-3.3+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 Implementation of [inkle’s Ink] in pure GDScript, with editor support.
-
-> [!IMPORTANT]
-> _inkgd_ is compatible with Godot 4.2+, but has no official releases yet.
-> To use _inkgd_ with Godot 4.2+, fetch the [`godot4`] branch.
 
 > [!NOTE]
 > _inkgd_ shines for rapid prototyping in GDScript and small games.
@@ -19,25 +15,32 @@ Implementation of [inkle’s Ink] in pure GDScript, with editor support.
 > in commercial games, but if you need a faster solution and don’t mind C#,
 > you should consider using [godot-ink].
 
+> [!IMPORTANT]
+> _inkgd_ is compatible with Godot 4.2+, but has not official release yet.
+> To use _inkgd_ with Godot 4.2+, fetch the [`godot4`] branch.
+
 [`godot4`]: https://github.com/ephread/inkgd/tree/godot4
 [inkle’s Ink]: https://github.com/inkle/ink
 [godot-ink]: https://github.com/paulloz/godot-ink
 
 ## Table of contents
 
-  * [Features](#features)
-  * [Requirements](#requirements)
-  * [Contributing](#asking-questions--contributing)
-      * [Asking Questions](#asking-questions)
-      * [Contributing](#contributing)
-  * [Installation & Getting Started](#installation--getting-started)
-  * [Editor Plugin](#editor-plugin)
-  * [Compatibility Table](#compatibility-table)
-  * [Acknowledgement](#acknowledgement)
-      * [Code](#code)
-      * [Ink Stories](#ink-stories)
-  * [Sponsors](#sponsors)
-  * [License](#license)
+- [](#)
+  - [Table of contents](#table-of-contents)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Asking Questions / Contributing](#asking-questions--contributing)
+    - [Asking questions](#asking-questions)
+    - [Contributing](#contributing)
+  - [Installation \& Getting Started](#installation--getting-started)
+  - [Editor Plugin](#editor-plugin)
+  - [Compatibility Table](#compatibility-table)
+  - [Acknowledgement](#acknowledgement)
+    - [Code](#code)
+    - [Ink Stories](#ink-stories)
+    - [Documentation \& Tutorials](#documentation--tutorials)
+  - [Sponsors](#sponsors)
+  - [License](#license)
 
 ## Features
 - [x] Fully-featured Ink runtime
@@ -46,14 +49,14 @@ Implementation of [inkle’s Ink] in pure GDScript, with editor support.
 	- [x] Integrated story previewer
 
 ## Requirements
-- Godot 3.3+
-- Inklecate 1.0.0+
+- Godot 4.1.1+
+- Inklecate 1.1.1+
 
 ## Asking Questions / Contributing
 
 ### Asking questions
 
-If you need help with something in particular, [start a discussion].
+If you need help with something, [start a discussion].
 If you want to report a problem, [open an issue].
 
 [start a discussion]: https://github.com/ephread/inkgd/discussions/new
@@ -88,6 +91,7 @@ hosted on [Read The Docs].
 |      0.3.0      |       1.0.0       |    3.2 – 3.4    |
 |  0.4.0 – 0.4.7  |       1.0.0       |    3.3 – 3.5    |
 |      0.5.0      |       1.1.1       |    3.3 – 3.5    |
+|      1.0.0      |       1.1.1       |       4.2       |
 
 ## Acknowledgement
 
